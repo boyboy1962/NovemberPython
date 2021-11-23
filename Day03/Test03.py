@@ -12,5 +12,6 @@ avrgWight = (hight - 100) * 0.9
 BMI = wight / avrgWight * 100
 
 print("{}님의 비만도는 {:.2f}% 입니다.".format(name,BMI))
+
 print("{}님의 비만도는 {:.2f}% 입니다.".format(name,wight / ((hight - 100) * 0.9) * 100))
 

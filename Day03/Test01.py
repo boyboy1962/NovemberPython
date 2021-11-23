@@ -11,7 +11,7 @@
 #input만쓰면 문자열 형태로 입력받는다.
 #공간 = input("출력하고자 하는 내용")
 
-name = input("이름 이ㄺ : ")
+name = input("이름 입력 : ")
 print(type(name))
 print(name)
 age = input("나이입력 : ")
