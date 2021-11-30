@@ -74,6 +74,7 @@ print(personList)
 print(personList[0].split("/"))
 print(personList[1].split("/"))
 
+# 이건 나중에 한다.
 for person in personList:
      print(person.split("/"))
     
