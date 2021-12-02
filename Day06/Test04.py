@@ -18,7 +18,7 @@ print("공백을 제외한 문자의 수는 {}".format(count))
 
 #for 문 range 사용
 count = 0
-for i in range(len(st)):
+for i in range(len(st)): #영번째 부터 시작하고 
     if st[i] == " ":
         print("공백 스킵")
     else:
@@ -27,10 +27,19 @@ for i in range(len(st)):
 print("공백을 제외한 문자의 수는 {}".format(count))
 
 
-#for 문 range 사용
+#for 문 range 사용 공백에서 값을 빼서 구하기
 count = 0
 for i in range(len(st)):
     if st[i] == " ":
         count += 1
 print("공백을 제외한 문자의 수는 {}".format(len(st) - count))
         
+
+
+# 선생님의 다른 풀이
+
+cnt = st.__len__()
+for i in range(0,len(st)):
+    if st[i] == ' ':
+        cnt -= 1
+print(cnt)
